@@ -65,9 +65,9 @@ const Star = styled('div')<StarProps>`
     }
     & > div {
         position: relative;
-        top: 38px;
+        top: 30px;
         text-align: center;
-        font-size: 28px;
+        font-size: 30px;
         font-weight: bold;
     }
 `
