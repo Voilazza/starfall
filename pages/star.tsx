@@ -8,11 +8,11 @@ function Star() {
     const [value, setValue] = useState(generateValue());
 
     function generateValue() {
-        return Math.round(Math.random() * 30 - 15)
+        return Math.round(Math.random() * 30 - 15);
     }
 
     function generateRandomLeft() {
-        return Math.round(Math.random() * 90) + '%'
+        return Math.round(Math.random() * 90) + '%';
     }
 
     return (
