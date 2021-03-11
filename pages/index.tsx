@@ -1,10 +1,8 @@
-import React from "react";
-import Space from "./space";
+import React, {useContext} from "react";
+import Space from "../components/space";
 
-function Game() {
+export default function Game() {
     return (
         <Space/>
-   );
+    );
 }
-
-export default Game
