@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {css} from "@emotion/css";
-import {StarStyle} from "./style";
+import {StarStyle} from "./style/style";
 
 type StarProps = {
     started: boolean,

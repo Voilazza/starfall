@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {css} from "@emotion/css";
-import {InfoBoxStyle, CounterStyle, ImgInfoStyle, CounterImgStyle} from "./style";
+import {InfoBoxStyle, CounterStyle, ImgInfoStyle, CounterImgStyle} from "./style/style";
 
 type CounterProps = {
     score: number

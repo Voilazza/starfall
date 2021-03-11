@@ -1,7 +1,7 @@
 import React from "react";
 import Star from "./star";
 import {css} from "@emotion/css";
-import {FallingAreaStyle} from "./style";
+import {FallingAreaStyle} from "./style/style";
 
 type FallingAreaProps = {
     started: any,

@@ -1,6 +1,6 @@
 import React, {useState, Fragment} from "react";
 import {css} from "@emotion/css";
-import {SpaceStyle} from "./style";
+import {SpaceStyle} from "./style/style";
 import FallingArea from "./falling-area";
 import Timer from "./timer";
 import Menu from "./menu";

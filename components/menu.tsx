@@ -1,6 +1,6 @@
 import React, {useState, useEffect, Fragment} from "react";
 import {css} from "@emotion/css";
-import {ButtonStyle, StartButtonStyle} from "./style";
+import {ButtonStyle, StartButtonStyle} from "./style/style";
 
 type MenuProps = {
     start: any,

@@ -1,6 +1,6 @@
 import React, {useState, useEffect, Fragment} from "react";
 import {css} from "@emotion/css";
-import {InfoBoxStyle, TimerStyle, ImgInfoStyle, TimerImgStyle} from "./style";
+import {InfoBoxStyle, TimerStyle, ImgInfoStyle, TimerImgStyle} from "./style/style";
 
 type TimerProps = {
     restart: any,
