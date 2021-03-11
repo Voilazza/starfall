@@ -37,13 +37,13 @@ export default function Timer({restart, started}: TimerProps) {
 
     return (
 
-        <Fragment>
+        <>
             {counter === (direction ? 0 : 60) ? restart() :
                 <div className={css`${InfoBoxStyle}; ${TimerStyle};`}>
                     <div className={css`${ImgInfoStyle}; ${TimerImgStyle}`}/>
                     <p>{format(counter)} </p>
                 </div>
             }
-        </Fragment>
+        </>
     );
 }

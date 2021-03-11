@@ -34,7 +34,7 @@ export default function Space() {
         <div
             className={css`${SpaceStyle};`}>
             {!isNewGame &&
-            <Fragment>
+            <>
                 <Timer
                     newGame={isNewGame}
                     started={isStarted}
@@ -44,7 +44,7 @@ export default function Space() {
                 <FallingArea
                     started={isStarted}
                     addScore={addScore}/>
-            </Fragment>}
+            </>}
             <Menu
                 start={start}
                 restart={restart}

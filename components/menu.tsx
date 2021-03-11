@@ -20,7 +20,7 @@ export default function Menu({start, pause, newGame, started, restart}: MenuProp
                         onClick={start}>
                         Старт
                     </button>:
-                <Fragment>
+                <>
                     <button
                         className={css`${ButtonStyle};`}
                         onClick={pause}>
@@ -31,7 +31,7 @@ export default function Menu({start, pause, newGame, started, restart}: MenuProp
                         onClick={restart}>
                         Рестарт
                     </button>
-                </Fragment>}
+                </>}
         </div>
     );
 }
