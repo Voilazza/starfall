@@ -8,7 +8,7 @@ injectGlobal`
         overflow: hidden;
         @font-face {
             font-family: "Roboto";
-            src: url("Roboto-Bold.ttf") format("truetype");
+            src: url(fonts/"Roboto-Bold.ttf") format("truetype");
             font-display: block;
         }
      }
@@ -18,7 +18,8 @@ export const SpaceStyle = css`
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url("background.png");
+    max-width: 4096px;
+    background: url("images/background.png");
     background-size: cover;
     overflow: hidden;
     margin: 0;
@@ -39,14 +40,14 @@ const animation = keyframes`
 `;
 
 export const StarStyle = css`
-    background: url("star.png");
+    background: url("images/star.png");
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    top: -130px;
+    top: -200px;
     left: 5px;
-    width: 88px;
-    height: 88px;
+    width: 180px;
+    height: 180px;
     position: absolute;
     animation: ${animation} 3s linear infinite;
     &:nth-of-type(2n) {
@@ -59,9 +60,9 @@ export const StarStyle = css`
     }
     & > div {
         position: relative;
-        top: 30px;
+        top: 70px;
         text-align: center;
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
     }
 `;
@@ -130,9 +131,9 @@ export const ImgInfoStyle = css`
 `;
 
 export const TimerImgStyle = css`
-    background: url("clock.svg");
+    background: url("images/clock.svg");
 `;
 
 export const CounterImgStyle = css`
-    background: url("stars.svg");
+    background: url("images/stars.svg");
 `;
