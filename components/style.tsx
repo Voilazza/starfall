@@ -102,8 +102,7 @@ export const InfoBoxStyle = css`
         font-size: 32px;
         -webkit-text-stroke: .05em black;
         margin-top: 0;
-    }
-    
+    }  
 `;
 
 export const TimerStyle = css`
